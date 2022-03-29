@@ -3,7 +3,9 @@ import { Component } from 'react';
 class Foot extends Component {
     render() {
       return (
-        <h1>MNM</h1>
+        <div style={{textAlign:'center'}}>
+          <h1>MNM</h1>
+        </div>
       )
     }
   }

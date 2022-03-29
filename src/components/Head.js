@@ -1,5 +1,4 @@
 import { Component } from 'react';
-import AppBar from '@material-ui/core/AppBar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 
@@ -21,11 +20,9 @@ class Head extends Component {
 
       return (
         <div className={classes.root}>
-            <AppBar position='static'>
                 <Typography variant="h3" align="center" className={classes.title}>
                     TODOLIST v3
                 </Typography>
-            </AppBar>
         </div>
       )
     }
